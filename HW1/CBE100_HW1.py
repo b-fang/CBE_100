@@ -20,7 +20,7 @@ def problem3():
     plt.title("Calibration Curve of Aqueous Solutions of Amino acid L-isoleucine")
     plt.legend(["mass ratio = {:.5g}*rho - {:.5g}".format(m, np.abs(b))])
     print(0.9940*m+b)
-    plt.savefig("CBE100_HW1_Outputs/Problem 3")
+    plt.savefig("HW1/CBE100_HW1_Outputs/Problem 3")
 
 
 def problem4():
@@ -36,7 +36,7 @@ def problem4():
     plt.title("Semi-log Biomass (g/L) vs Time (hrs)")
     plt.ylabel("Biomass (g/L)")
     plt.xlabel("Time (hrs)")
-    plt.savefig("CBE100_HW1_Outputs/Problem 4")
+    plt.savefig("HW1/CBE100_HW1_Outputs/Problem 4")
 
 
 def problem5():
@@ -52,4 +52,4 @@ def problem5():
     plt.title("Semi-log Projected Demand Figures over Time")
     plt.ylabel("Demand Rate (kg/wk)")
     plt.xlabel("Time (weeks)")
-    plt.savefig("CBE100_HW1_Outputs/Problem 5")
+    plt.savefig("HW1/CBE100_HW1_Outputs/Problem 5")
