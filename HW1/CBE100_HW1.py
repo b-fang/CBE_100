@@ -36,8 +36,14 @@ def problem4():
     plt.title("Semi-log Biomass (g/L) vs Time (hrs)")
     plt.ylabel("Biomass (g/L)")
     plt.xlabel("Time (hrs)")
-    plt.savefig("HW1/CBE100_HW1_Outputs/Problem 4")
+    plt.savefig("HW1/CBE100_HW1_Outputs/Problem 4_1")
 
+    plt.figure(4)
+    plt.scatter(time, biomass)
+    plt.title("Biomass (g/L) vs Time (hrs)")
+    plt.ylabel("Biomass (g/L)")
+    plt.xlabel("Time (hrs)")
+    plt.savefig("HW1/CBE100_HW1_Outputs/Problem 4_2")
 
 def problem5():
     week = np.array([1, 2, 3, 4, 5, 6])
